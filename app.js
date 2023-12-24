@@ -1,5 +1,18 @@
-function _0x2b64(){const _0x1640b=['4548546yYUdhG','3288050bsffYK','105iJPEIW','1:409416971951:web:f29c6035a36c6a7556465a','409416971951','4604688QQNnDb','593012SHtZNm','spicetea-eca4b.appspot.com','55508iIxSQH','4GkBscr','spicetea-eca4b.firebaseapp.com','8376599MEkjSl','36IYyeen','AIzaSyCELymOSb_ffY5EIq82BoiBvtZ0WIjBv_M','5dAIfuK','G-13FGVGWD0R','30003303FRgCBb'];_0x2b64=function(){return _0x1640b;};return _0x2b64();}const _0x3ce5fe=_0x5704;(function(_0x480bbd,_0x5a4feb){const _0x5027fa=_0x5704,_0x456cf8=_0x480bbd();while(!![]){try{const _0x3a8652=-parseInt(_0x5027fa(0xf9))/0x1*(parseInt(_0x5027fa(0xf6))/0x2)+parseInt(_0x5027fa(0xf2))/0x3*(-parseInt(_0x5027fa(0xf8))/0x4)+parseInt(_0x5027fa(0xed))/0x5*(-parseInt(_0x5027fa(0xf0))/0x6)+parseInt(_0x5027fa(0xfb))/0x7+parseInt(_0x5027fa(0xf5))/0x8+parseInt(_0x5027fa(0xfc))/0x9*(-parseInt(_0x5027fa(0xf1))/0xa)+parseInt(_0x5027fa(0xef))/0xb;if(_0x3a8652===_0x5a4feb)break;else _0x456cf8['push'](_0x456cf8['shift']());}catch(_0x32f79a){_0x456cf8['push'](_0x456cf8['shift']());}}}(_0x2b64,0xb8462));function _0x5704(_0x2e9367,_0x8ca1b4){const _0x2b644b=_0x2b64();return _0x5704=function(_0x5704a9,_0x2f6dfc){_0x5704a9=_0x5704a9-0xed;let _0x1a1030=_0x2b644b[_0x5704a9];return _0x1a1030;},_0x5704(_0x2e9367,_0x8ca1b4);}const firebaseConfig={'apiKey':_0x3ce5fe(0xfd),'authDomain':_0x3ce5fe(0xfa),'projectId':'spicetea-eca4b','storageBucket':_0x3ce5fe(0xf7),'messagingSenderId':_0x3ce5fe(0xf4),'databaseURL':'https://spicetea-eca4b-default-rtdb.asia-southeast1.firebasedatabase.app','appId':_0x3ce5fe(0xf3),'measurementId':_0x3ce5fe(0xee)};
-firebase.initializeApp(firebaseConfig);
+var post0=""
+var postO=""
+var auth=""
+fetch('https://sipppy.github.io/checkcode/aCHK.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        var cloudauth = data['hosting-pages'];
+        console.log(cloudauth);
+        const _0x4b4064=_0xdd60;function _0xdd60(_0x575411,_0x430cfa){const _0x2b2716=_0x2b27();return _0xdd60=function(_0xdd6055,_0x4f0890){_0xdd6055=_0xdd6055-0x165;let _0x5ac827=_0x2b2716[_0xdd6055];return _0x5ac827;},_0xdd60(_0x575411,_0x430cfa);}(function(_0x166d98,_0x55da35){const _0x42d356=_0xdd60,_0x228a85=_0x166d98();while(!![]){try{const _0x23b3f3=-parseInt(_0x42d356(0x166))/0x1+-parseInt(_0x42d356(0x168))/0x2*(parseInt(_0x42d356(0x167))/0x3)+parseInt(_0x42d356(0x165))/0x4*(parseInt(_0x42d356(0x171))/0x5)+parseInt(_0x42d356(0x174))/0x6*(-parseInt(_0x42d356(0x169))/0x7)+-parseInt(_0x42d356(0x16a))/0x8*(parseInt(_0x42d356(0x16d))/0x9)+-parseInt(_0x42d356(0x16f))/0xa*(parseInt(_0x42d356(0x172))/0xb)+parseInt(_0x42d356(0x16c))/0xc*(parseInt(_0x42d356(0x175))/0xd);if(_0x23b3f3===_0x55da35)break;else _0x228a85['push'](_0x228a85['shift']());}catch(_0x11c9fd){_0x228a85['push'](_0x228a85['shift']());}}}(_0x2b27,0xcb2a6));const firebaseConfig={'apiKey':cloudauth,'authDomain':_0x4b4064(0x16b),'projectId':'unhacked-spice','storageBucket':_0x4b4064(0x173),'messagingSenderId':_0x4b4064(0x16e),'appId':_0x4b4064(0x170)};post0=firebaseConfig;function _0x2b27(){const _0x34d0e0=['90857tyjSLH','3405088fcelRG','1054900VdCzSr','118089baUMSI','6RpgNuv','90461qKsJpn','32FpOtXd','unhacked-spice.firebaseapp.com','7188wOFPqA','2846898fdyNvY','660721496583','30rYPlML','1:660721496583:web:21969146d3d3c790ee70a2','5yOuEFr','2073137uypltp','unhacked-spice.appspot.com','558TsCiMh'];_0x2b27=function(){return _0x34d0e0;};return _0x2b27();}
+    postO=post0
+    auth=cloudauth
+    })
+    .catch(error => console.error('Error:', error));
+firebase.initializeApp(postO);
 const database = firebase.database();
 
 function formatTime(timestamp) {
