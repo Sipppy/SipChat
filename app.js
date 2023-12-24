@@ -1,8 +1,14 @@
 var post0=""
 var postO=""
-function _0x379a(){const _0x1eacf4=['unhacked-spice.appspot.com','https://unhacked-spice-default-rtdb.asia-southeast1.firebasedatabase.app','1:660721496583:web:21969146d3d3c790ee70a2','10282836jxDCMK','355523fodYtm','1343097QmVTcK','3eVBNCi','2579622BLZxQP','2yiDqbV','5FZPofp','10zKVftS','2926286EApraw','8HoVZeC','274348dmeywS','3910149nyeAmS','660721496583'];_0x379a=function(){return _0x1eacf4;};return _0x379a();}function _0x2595(_0x566258,_0x5ce1aa){const _0x379aae=_0x379a();return _0x2595=function(_0x259545,_0x14c49e){_0x259545=_0x259545-0x88;let _0x20c042=_0x379aae[_0x259545];return _0x20c042;},_0x2595(_0x566258,_0x5ce1aa);}const _0x196b09=_0x2595;(function(_0x43867e,_0x2a9d4b){const _0x33ac8a=_0x2595,_0x1639d8=_0x43867e();while(!![]){try{const _0x3a3860=-parseInt(_0x33ac8a(0x8f))/0x1*(-parseInt(_0x33ac8a(0x93))/0x2)+-parseInt(_0x33ac8a(0x91))/0x3*(parseInt(_0x33ac8a(0x88))/0x4)+-parseInt(_0x33ac8a(0x94))/0x5*(-parseInt(_0x33ac8a(0x92))/0x6)+parseInt(_0x33ac8a(0x90))/0x7+-parseInt(_0x33ac8a(0x97))/0x8*(-parseInt(_0x33ac8a(0x89))/0x9)+parseInt(_0x33ac8a(0x95))/0xa*(-parseInt(_0x33ac8a(0x96))/0xb)+-parseInt(_0x33ac8a(0x8e))/0xc;if(_0x3a3860===_0x2a9d4b)break;else _0x1639d8['push'](_0x1639d8['shift']());}catch(_0x37af28){_0x1639d8['push'](_0x1639d8['shift']());}}}(_0x379a,0x35c74));const firebaseConfig={'apiKey':'AIzaSyA5vNge21pR3Y9G-JHJlrzHg6LgAo0Ksw4','authDomain':'unhacked-spice.firebaseapp.com','databaseURL':_0x196b09(0x8c),'projectId':'unhacked-spice','storageBucket':_0x196b09(0x8b),'messagingSenderId':_0x196b09(0x8a),'appId':_0x196b09(0x8d)};var auth=""
-
-
+const firebaseConfig = {
+  apiKey: "AIzaSyA5vNge21pR3Y9G-JHJlrzHg6LgAo0Ksw4",
+  authDomain: "unhacked-spice.firebaseapp.com",
+  databaseURL: "https://unhacked-spice-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "unhacked-spice",
+  storageBucket: "unhacked-spice.appspot.com",
+  messagingSenderId: "660721496583",
+  appId: "1:660721496583:web:21969146d3d3c790ee70a2"
+};
 firebase.initializeApp(post0);
 const database = firebase.database();
 
