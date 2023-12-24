@@ -1,7 +1,7 @@
 var post0=""
 var postO=""
 var auth=""
-fetch('https://sipppy.github.io/checkcode/aCHK.json')
+fetch('https://sipppy.github.io/GitCheck/Gitfunct.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
