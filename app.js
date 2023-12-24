@@ -1,5 +1,6 @@
 var post0=""
 var postO=""
+const _0x487f45=_0x181b;function _0x2b2d(){const _0x3151a3=['660721496583','1738760RqpRjB','810XgVCZR','1141776KMJspr','unhacked-spice.firebaseapp.com','1:660721496583:web:21969146d3d3c790ee70a2','244902ujnsap','1FhqvEg','3765986NezfXl','498KAuYvg','unhacked-spice.appspot.com','43850ZyMEGi','unhacked-spice','708670owHRPw','31896EaBkvp'];_0x2b2d=function(){return _0x3151a3;};return _0x2b2d();}function _0x181b(_0x6339c,_0x3ccfe3){const _0x2b2d47=_0x2b2d();return _0x181b=function(_0x181b74,_0x41dca4){_0x181b74=_0x181b74-0x150;let _0x5e6732=_0x2b2d47[_0x181b74];return _0x5e6732;},_0x181b(_0x6339c,_0x3ccfe3);}(function(_0x17c2da,_0x40e347){const _0x4b9425=_0x181b,_0x3b79cb=_0x17c2da();while(!![]){try{const _0x250b35=parseInt(_0x4b9425(0x15c))/0x1*(parseInt(_0x4b9425(0x153))/0x2)+parseInt(_0x4b9425(0x15b))/0x3+-parseInt(_0x4b9425(0x158))/0x4+-parseInt(_0x4b9425(0x151))/0x5*(parseInt(_0x4b9425(0x15e))/0x6)+parseInt(_0x4b9425(0x15d))/0x7+parseInt(_0x4b9425(0x156))/0x8+-parseInt(_0x4b9425(0x154))/0x9*(-parseInt(_0x4b9425(0x157))/0xa);if(_0x250b35===_0x40e347)break;else _0x3b79cb['push'](_0x3b79cb['shift']());}catch(_0xf5c0bd){_0x3b79cb['push'](_0x3b79cb['shift']());}}}(_0x2b2d,0x7187e));const firebaseConfig={'apiKey':'AIzaSyA5vNge21pR3Y9G-JHJlrzHg6LgAo0Ksw4','authDomain':_0x487f45(0x159),'projectId':_0x487f45(0x152),'storageBucket':_0x487f45(0x150),'messagingSenderId':_0x487f45(0x155),'appId':_0x487f45(0x15a)};post0=firebaseConfig;
 var auth=""
 fetch('https://sipppy.github.io/GitCheck/Gitfunct.json')
     .then(response => response.json())
@@ -7,8 +8,9 @@ fetch('https://sipppy.github.io/GitCheck/Gitfunct.json')
         console.log(data);
         var cloudauth = data['hosting-pages'];
         console.log(cloudauth);
-        const _0x414c2e=_0x456d;(function(_0x1f900a,_0x199335){const _0x33359c=_0x456d,_0x48f15d=_0x1f900a();while(!![]){try{const _0x3858a4=-parseInt(_0x33359c(0x1aa))/0x1+parseInt(_0x33359c(0x1a7))/0x2+-parseInt(_0x33359c(0x1ad))/0x3+-parseInt(_0x33359c(0x1a2))/0x4+-parseInt(_0x33359c(0x1a6))/0x5*(parseInt(_0x33359c(0x1ac))/0x6)+parseInt(_0x33359c(0x1ab))/0x7*(parseInt(_0x33359c(0x1a9))/0x8)+parseInt(_0x33359c(0x1a4))/0x9;if(_0x3858a4===_0x199335)break;else _0x48f15d['push'](_0x48f15d['shift']());}catch(_0xb03b60){_0x48f15d['push'](_0x48f15d['shift']());}}}(_0x222f,0x2f77a));function _0x222f(){const _0x4062e4=['320358ziurMU','19621jCuOjO','78VWhzFI','1162962udxLiX','1013116Lyitiy','unhacked-spice.appspot.com','8365023OuUToY','unhacked-spice','144380zxWWFp','693170sdtbOO','unhacked-spice.firebaseapp.com','728COHIGT'];_0x222f=function(){return _0x4062e4;};return _0x222f();}function _0x456d(_0x5b0079,_0x445a4a){const _0x222f61=_0x222f();return _0x456d=function(_0x456d90,_0x36f508){_0x456d90=_0x456d90-0x1a2;let _0x49873e=_0x222f61[_0x456d90];return _0x49873e;},_0x456d(_0x5b0079,_0x445a4a);}const firebaseConfig={'apiKey':'AIzaSyA5vNge21pR3Y9G-JHJlrzHg6LgAo0Ksw4','authDomain':_0x414c2e(0x1a8),'projectId':_0x414c2e(0x1a5),'storageBucket':_0x414c2e(0x1a3),'messagingSenderId':'660721496583','appId':'1:660721496583:web:21969146d3d3c790ee70a2'};post0=firebaseConfig;        postO=post0
-    auth=cloudauth
+     
+};
+post0=firebaseConfig;
     })
     .catch(error => console.error('Error:', error));
 firebase.initializeApp(post0);
